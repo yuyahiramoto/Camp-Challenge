@@ -21,7 +21,9 @@ $arr = array();
     // array(0,1,2,3.....)配列は番号で管理される(以下の場合3='soeda')。
 $arr = array(10,100,'soeda','hayashi',-20,118,'END');
 
-//配列の 'soeda' を表示する。
-echo $arr [2];
+//配列を表示する。
+for ($i =0; $i < count($arr); $i++){
+  echo $arr[$i] . "<br>";
+}
 
 ?>
